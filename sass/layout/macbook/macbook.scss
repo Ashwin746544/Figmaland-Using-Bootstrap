@@ -1,51 +1,53 @@
 .macbook-container {
-  background-image: url(../assets/macbook/curve.svg);
+  background-image: url(../../../assets/macbook/curve.svg);
   text-align: center;
+  padding: 0px 19.53px;
   padding-bottom: 134.73px;
   padding-top: 114.73px;
-  img {
-    width: 1054.38px;
-    vertical-align: top;
-  }
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 1400px) {
   .macbook-container {
-    padding-bottom: 110.56px;
-    padding-top: 100.56px;
-    padding-left: 19.53px;
-    padding-right: 19.53px;
-    img {
-      width: 900px;
+    .img-container {
+      width: 1054px;
     }
   }
 }
+// @media (max-width: 1100px) {
+//   .macbook-container {
+//     padding-bottom: 110.56px;
+//     padding-top: 100.56px;
+//     padding-left: 19.53px;
+//     padding-right: 19.53px;
+//     img {
+//       width: 900px;
+//     }
+//   }
+// }
 
-@media (max-width: 991.98px) {
-  .macbook-container {
-    padding-bottom: 100.56px;
-    padding-top: 85.56px;
-    img {
-      width: 700px;
-    }
-  }
-}
+// @media (max-width: 991.98px) {
+//   .macbook-container {
+//     padding-bottom: 100.56px;
+//     padding-top: 85.56px;
+//     img {
+//       width: 700px;
+//     }
+//   }
+// }
 
-@media (max-width: 767.98px) {
-  .macbook-container {
-    padding-bottom: 86.56px;
-    padding-top: 75.56px;
-    img {
-      width: 536px;
-    }
-  }
-}
+// @media (max-width: 767.98px) {
+//   .macbook-container {
+//     padding-bottom: 86.56px;
+//     padding-top: 75.56px;
+//     img {
+//       width: 536px;
+//     }
+//   }
+// }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   .macbook-container {
     padding-top: 65.56px;
-    img {
-      width: 100%;
-    }
+    padding-bottom: 86.56px;
   }
 }
