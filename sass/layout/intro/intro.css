@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #252b42;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
 .myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
   color: #ffffff;
   font-style: normal;
@@ -47,24 +82,8 @@
   letter-spacing: 0.2px;
 }
 
-.myButton {
-  padding: 18px 38px;
-  background: #2091f9;
-  border-radius: 35px;
-  color: #ffffff;
-  height: 54px;
-  border: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
-}
-
 .intro {
-  text-align: center;
-  margin-top: 148px;
+  margin-top: 100px;
 }
 
 .intro h1,
@@ -75,12 +94,7 @@
 
 .intro div {
   width: 429px;
-  margin: auto;
   margin-bottom: 90px;
-}
-
-.intro div h4 {
-  margin: 0;
 }
 
 .intro .myButton {
@@ -92,16 +106,14 @@
 
 .intro .myButton h3 {
   color: #2091f9;
-  margin: 0;
 }
 
 @media (max-width: 575px) {
   .intro {
-    margin-top: 107px;
+    margin-top: 80px;
   }
   .intro div {
     width: 298px;
-    text-align: center;
     margin-bottom: 69px;
   }
 }
