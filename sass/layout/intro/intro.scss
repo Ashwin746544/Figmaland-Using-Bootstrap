@@ -1,6 +1,6 @@
+@import "../../base/base.scss";
 .intro {
-  text-align: center;
-  margin-top: 148px;
+  margin-top: 100px;
   h1,
   h2 {
     margin-top: 27px;
@@ -8,11 +8,7 @@
   }
   div {
     width: 429px;
-    margin: auto;
     margin-bottom: 90px;
-    h4 {
-      margin: 0;
-    }
   }
   .myButton {
     background-color: $white;
@@ -21,17 +17,15 @@
     width: 236px;
     h3 {
       color: $primary;
-      margin: 0;
     }
   }
 }
 
 @media (max-width: 575px) {
   .intro {
-    margin-top: 107px;
+    margin-top: 80px;
     div {
       width: 298px;
-      text-align: center;
       margin-bottom: 69px;
     }
   }
