@@ -1,0 +1,139 @@
+.feature {
+  .feature-top {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 138.51px;
+    h2 {
+      margin-top: 17px;
+      margin-bottom: 27px;
+    }
+    div {
+      width: 298px;
+      margin: auto;
+    }
+  }
+  .feature-bottom {
+    padding-bottom: 153.66px;
+    display: flex;
+    .left {
+      margin-left: 67.69px;
+      margin-right: 94.71px;
+      img {
+        width: 949.62px;
+        vertical-align: top;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      div.content {
+        width: 255px;
+        .icon-container {
+          display: flex;
+          align-items: center;
+          height: 53px;
+          img {
+            width: 43px;
+            margin-right: 10px;
+          }
+          h3 {
+            margin: 0;
+          }
+        }
+        .discription {
+          margin: 10px 0px;
+          .myP {
+            margin: 0;
+          }
+        }
+      }
+      .content-1 {
+        margin-bottom: 75px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .feature {
+    padding: 0px 16px;
+    .feature-bottom {
+      flex-direction: column;
+      align-items: center;
+      .left {
+        margin: 0;
+      }
+      .right {
+        margin-top: 75px;
+        flex-direction: row;
+        .content-1 {
+          margin-right: 100px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .feature {
+    .feature-bottom {
+      .left {
+        img {
+          width: 700px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .feature {
+    .feature-bottom {
+      .left {
+        img {
+          width: 530px;
+        }
+      }
+      .right {
+        .content-1 {
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .feature {
+    .feature-top {
+      padding-top: 80px;
+      padding-bottom: 66.68px;
+    }
+    .feature-bottom {
+      padding-bottom: 98px;
+      .left {
+        img {
+          width: 100%;
+        }
+      }
+      .right {
+        flex-direction: column;
+        align-items: center;
+        .content-1 {
+          margin-bottom: 75px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1441px) {
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

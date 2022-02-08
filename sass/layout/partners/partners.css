@@ -1,0 +1,99 @@
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.partners h2 {
+  margin-bottom: 27px;
+}
+
+.partners .info {
+  width: 298px;
+  text-align: center;
+}
+
+.partners .partner-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 90px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 80px;
+  padding: 5.27px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.partners .partner-icons .icon-container {
+  padding: 15px;
+  margin: 0px 18.5px;
+}
+
+.partners .partner-icons .icon-container img {
+  vertical-align: top;
+}
+
+.partners .partner-icons .icon-container:nth-child(3) {
+  padding: 10px 15px;
+}
+
+.partners .partner-icons .icon-container:nth-child(5) {
+  padding: 12.5px 15px;
+}
+
+.partners .myButton {
+  width: 236px;
+  height: 65px;
+  padding: 16px 0px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 575.98px) {
+  .partners {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .partners .partner-icons {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .partners .partner-icons .icon-container {
+    margin: 15px 0px;
+  }
+  .partners .partner-icons .icon-container:nth-child(3) {
+    padding: 15px;
+  }
+  .partners .partner-icons .icon-container:nth-child(5) {
+    padding: 15px;
+  }
+  .partners .partner-icons .icon-container:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+/*# sourceMappingURL=partners.css.map */

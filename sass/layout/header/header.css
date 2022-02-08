@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #252b42;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myInput, .header .navbar .container-fluid .navbar-collapse form .form-control {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+  padding: 19px 35px;
+  height: 54px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myLink, .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home {
+  background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
+}
+
+.header {
+  padding: 40px;
+  padding-top: 39px;
+}
+
+.header .navbar .container-fluid {
+  padding: 0;
+}
+
+.header .navbar .container-fluid .login {
+  margin-left: 3px;
+  margin-right: 21px;
+}
+
+.header .navbar .container-fluid .login .myButton {
+  background-color: #ffffff;
+  color: #2091f9;
+  width: 117px;
+  height: 52px;
+}
+
+.header .navbar .container-fluid .navbar-brand {
+  padding: 10px;
+  margin-right: 32px;
+}
+
+.header .navbar .container-fluid .navbar-toggler {
+  padding: 8px 6.66px;
+  width: 40px;
+}
+
+.header .navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../../../assets/header/menu.svg);
+  width: 30px;
+}
+
+.header .navbar .container-fluid .navbar-collapse {
+  padding: 4px 0px;
+}
+
+.header .navbar .container-fluid .navbar-collapse .navbar-nav {
+  margin-right: 44px;
+}
+
+.header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+  margin-right: 21px;
+}
+
+.header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  padding: 10px;
+}
+
+.header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.header .navbar .container-fluid .navbar-collapse form .form-control {
+  border: none;
+  margin-right: 12px;
+  width: 273px;
+}
+
+.header .navbar .container-fluid .navbar-collapse form .myButton {
+  padding: 19px 38px;
+  border: none;
+  background-color: #ffffff;
+  color: #2091f9;
+}
+
+@media (max-width: 485px) {
+  .header .navbar .container-fluid .navbar-collapse form .myButton {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header .navbar {
+    width: 100%;
+  }
+  .header .navbar .container-fluid .navbar-collapse {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .navbar .container-fluid {
+    position: relative;
+  }
+  .header .navbar .container-fluid .navbar-collapse {
+    background-color: #81818f73;
+    position: absolute;
+    top: 72px;
+    width: calc(100% - 10px);
+    margin-left: 10px;
+  }
+  .header .navbar .container-fluid .navbar-collapse form {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding: 17px 0;
+    padding-left: 25px;
+    padding-right: 16px;
+  }
+  .header .navbar .container-fluid .navbar-brand {
+    padding-right: 0px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 418px) {
+  .header .navbar .container-fluid .login {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=header.css.map */

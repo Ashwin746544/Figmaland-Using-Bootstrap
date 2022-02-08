@@ -1,0 +1,166 @@
+.feature .feature-top {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 138.51px;
+}
+
+.feature .feature-top h2 {
+  margin-top: 17px;
+  margin-bottom: 27px;
+}
+
+.feature .feature-top div {
+  width: 298px;
+  margin: auto;
+}
+
+.feature .feature-bottom {
+  padding-bottom: 153.66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature .feature-bottom .left {
+  margin-left: 67.69px;
+  margin-right: 94.71px;
+}
+
+.feature .feature-bottom .left img {
+  width: 949.62px;
+  vertical-align: top;
+}
+
+.feature .feature-bottom .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feature .feature-bottom .right div.content {
+  width: 255px;
+}
+
+.feature .feature-bottom .right div.content .icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 53px;
+}
+
+.feature .feature-bottom .right div.content .icon-container img {
+  width: 43px;
+  margin-right: 10px;
+}
+
+.feature .feature-bottom .right div.content .icon-container h3 {
+  margin: 0;
+}
+
+.feature .feature-bottom .right div.content .discription {
+  margin: 10px 0px;
+}
+
+.feature .feature-bottom .right div.content .discription .myP {
+  margin: 0;
+}
+
+.feature .feature-bottom .right .content-1 {
+  margin-bottom: 75px;
+}
+
+@media (max-width: 1399.98px) {
+  .feature {
+    padding: 0px 16px;
+  }
+  .feature .feature-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feature .feature-bottom .left {
+    margin: 0;
+  }
+  .feature .feature-bottom .right {
+    margin-top: 75px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .feature .feature-bottom .right .content-1 {
+    margin-right: 100px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .feature .feature-bottom .left img {
+    width: 700px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .feature .feature-bottom .left img {
+    width: 530px;
+  }
+  .feature .feature-bottom .right .content-1 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .feature .feature-top {
+    padding-top: 80px;
+    padding-bottom: 66.68px;
+  }
+  .feature .feature-bottom {
+    padding-bottom: 98px;
+  }
+  .feature .feature-bottom .left img {
+    width: 100%;
+  }
+  .feature .feature-bottom .right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feature .feature-bottom .right .content-1 {
+    margin-bottom: 75px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1441px) {
+  .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=feature.css.map */

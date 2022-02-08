@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,QAAQ;EACrB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,qBAAqB;EACrC,UAAU,EAAE,IAAI;EAChB,KAAK,ECTC,OAAO;EDUb,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "link.scss",
+        "../../base/_variables.scss"
+    ],
+    "names": [],
+    "file": "link.css"
+}

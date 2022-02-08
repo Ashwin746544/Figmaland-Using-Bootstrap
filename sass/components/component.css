@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #252b42;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myInput {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+  padding: 19px 35px;
+  height: 54px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myLink {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=component.css.map */

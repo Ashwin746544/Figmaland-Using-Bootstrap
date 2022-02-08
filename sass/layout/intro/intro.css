@@ -1,0 +1,108 @@
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 148px;
+}
+
+.intro h1,
+.intro h2 {
+  margin-top: 27px;
+  margin-bottom: 17px;
+}
+
+.intro div {
+  width: 429px;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.intro div h4 {
+  margin: 0;
+}
+
+.intro .myButton {
+  background-color: #ffffff;
+  padding: 16px 0px;
+  height: 65px;
+  width: 236px;
+}
+
+.intro .myButton h3 {
+  color: #2091f9;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .intro {
+    margin-top: 107px;
+  }
+  .intro div {
+    width: 298px;
+    text-align: center;
+    margin-bottom: 69px;
+  }
+}
+/*# sourceMappingURL=intro.css.map */

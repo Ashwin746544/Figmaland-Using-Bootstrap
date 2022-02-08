@@ -1,0 +1,160 @@
+.newsletter {
+  display: flex;
+  padding-top: 216px;
+  padding-bottom: 109px;
+  .top {
+    display: none;
+    .myH2 {
+      margin-top: 17px;
+      margin-bottom: 27px;
+    }
+    div.info {
+      width: 298px;
+      margin: auto;
+    }
+  }
+  .left {
+    margin-left: 119px;
+    margin-right: 113px;
+    img {
+      vertical-align: top;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .myH2 {
+      margin-top: 17px;
+      margin-bottom: 35px;
+      margin-right: 0.6px;
+    }
+    div {
+      display: flex;
+      margin-top: 34px;
+      .myInput {
+        padding: 19px 39px;
+        background: #f4f4f4;
+        border: 1px solid #e8e8e8;
+        box-sizing: border-box;
+        border-radius: 39px;
+        margin-right: 12px;
+        width: 273px;
+      }
+      .myButton {
+        padding: 19px 38px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .newsletter {
+    justify-content: center;
+    .left {
+      margin-left: 0;
+    }
+    .right {
+      width: 353px;
+      div {
+        flex-direction: column;
+        .myInput,
+        .myButton {
+          width: 353px;
+        }
+        .myInput {
+          width: 353px;
+          margin-right: 0;
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .newsletter {
+    .left {
+      margin-right: 70px;
+      img {
+        width: 550px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 81px;
+    .left {
+      margin-right: 0;
+    }
+    .right {
+      width: 550px;
+      margin-top: 95.25px;
+      text-align: center;
+      .myH3 {
+        margin-bottom: 10px;
+      }
+      div {
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .newsletter {
+    align-items: center;
+    // padding-top: 81px;
+    padding-bottom: 114px;
+    .top {
+      text-align: center;
+      display: block;
+      margin-bottom: 95.25px;
+    }
+    .left {
+      padding: 0px 14.5px;
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      padding: 0px 32.5px;
+      width: 100%;
+      box-sizing: border-box;
+      .myH3:first-child,
+      .myH2 {
+        display: none;
+      }
+      div {
+        .myButton {
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 417px) {
+  .newsletter {
+    .right {
+      div {
+        .myInput,
+        .myButton {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1441px) {
+  .newsletter {
+    justify-content: center;
+    .left {
+      margin-left: 0;
+    }
+  }
+}

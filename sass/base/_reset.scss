@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #252b42;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}

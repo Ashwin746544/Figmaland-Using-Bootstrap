@@ -1,0 +1,72 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+
+  h2 {
+    margin-bottom: 27px;
+  }
+  .info {
+    width: 298px;
+    text-align: center;
+  }
+  .partner-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    flex-shrink: 0;
+    margin-bottom: 80px;
+    padding: 5.27px 15px;
+    box-sizing: border-box;
+    .icon-container {
+      padding: 15px;
+      margin: 0px 18.5px;
+      img {
+        vertical-align: top;
+      }
+    }
+    .icon-container:nth-child(3) {
+      padding: 10px 15px;
+    }
+    .icon-container:nth-child(5) {
+      padding: 12.5px 15px;
+    }
+  }
+  .myButton {
+    width: 236px;
+    height: 65px;
+    padding: 16px 0px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .partners {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    .partner-icons {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      flex-direction: column;
+      .icon-container {
+        margin: 15px 0px;
+      }
+      .icon-container:nth-child(3) {
+        padding: 15px;
+      }
+      .icon-container:nth-child(5) {
+        padding: 15px;
+      }
+      .icon-container:nth-last-child(-n + 2) {
+        display: none;
+      }
+    }
+  }
+}
