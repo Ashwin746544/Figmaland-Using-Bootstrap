@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  background-color: #252b42;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d !important;
+}
+
 .myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
   color: #ffffff;
   font-style: normal;
@@ -48,54 +83,46 @@
 }
 
 .trial {
-  text-align: center;
-  padding: 100px 0px;
+  padding: 80px 0;
+  background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
 }
 
-.trial h2 {
-  margin-top: 17px;
-  margin-bottom: 27px;
+.trial .trial-top {
+  margin-bottom: 59px;
 }
 
-.trial div.info {
-  width: 298px;
-  margin: auto;
+.trial .trial-top h2 {
+  margin: 17px;
 }
 
-.trial .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 90px;
+.trial .trial-top .info {
+  padding: 10px;
+  max-width: 318px;
 }
 
-.trial .buttons .myButton:first-child {
+.trial .trial-bottom .myButton:first-child {
   padding: 18px 31px;
-  height: 52px;
+  height: auto;
   color: #2091f9;
   background-color: #ffffff;
   margin-right: 12px;
 }
 
-.trial .buttons .myButton:last-child {
-  padding: 15px 44px;
-  vertical-align: middle;
-  height: 48px;
+.trial .trial-bottom .myButton:last-child {
+  padding: 16px 45px;
+  height: 50px;
   color: #ffffff;
   background-color: transparent;
   border: 1px solid #ffffff;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 576px) {
   .trial {
-    padding: 80px 0px;
-    background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
+    padding: 100px 0px;
+    background: none;
   }
-  .trial .buttons {
-    margin-top: 69px;
+  .trial .trial-top {
+    margin-bottom: 80px;
   }
 }
 /*# sourceMappingURL=trial.css.map */
