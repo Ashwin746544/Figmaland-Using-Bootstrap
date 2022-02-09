@@ -10,3 +10,8 @@ body {
   letter-spacing: 0.1px;
   color: #18171d !important;
 }
+$myColor: red;
+$theme-colors: (
+  "primary": $myColor,
+  "another": $myColor,
+);
