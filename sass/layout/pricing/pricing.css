@@ -3,98 +3,36 @@
   padding-bottom: 100px;
 }
 
-.pricing .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.pricing .column:first-child {
+  margin-bottom: 102px;
 }
 
-.pricing .content .left {
-  margin-right: 274px;
-}
-
-.pricing .content .left .myH1 {
-  margin-bottom: 16px;
-}
-
-.pricing .content .left .info {
-  width: 361px;
+.pricing .column:first-child .left .info {
   padding: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  max-width: 361px;
 }
 
-.pricing .content .right .myH4,
-.pricing .content .right .price {
-  margin-bottom: 16.5px;
+.pricing .column:last-child .right .price {
+  margin: 16.5px 0px;
 }
 
-.pricing .content .right .price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.pricing .content .right .price .myH1 {
+.pricing .column:last-child .right .price h1 {
   margin-right: 10px;
 }
 
-.pricing .content .right .info {
-  width: 218px;
+.pricing .column:last-child .right .info {
+  max-width: 218px;
   height: 60px;
   margin-bottom: 19px;
 }
 
-.pricing .content .right .myButton {
+.pricing .column:last-child .right .myButton {
   height: 52px;
 }
 
-@media (max-width: 1199.98px) {
-  .pricing .content .left {
-    margin-right: 200px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .pricing .content .left {
-    margin-right: 130px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .pricing .content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .pricing .content .left {
-    text-align: center;
-    margin-right: 0;
-    margin-bottom: 102px;
-  }
-  .pricing .content .right .myButton {
-    display: block;
-    margin: auto;
-  }
-}
-
-@media (max-width: 417px) {
-  .pricing {
-    padding-left: 35px;
-    padding-right: 22px;
-  }
-  .pricing .content .left .info {
-    width: 100%;
+@media (min-width: 992px) {
+  .pricing .container {
+    max-width: 890px;
   }
 }
 /*# sourceMappingURL=pricing.css.map */

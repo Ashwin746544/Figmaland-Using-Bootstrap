@@ -1,35 +1,25 @@
 .pricing {
   padding-top: 110px;
   padding-bottom: 100px;
-
-  .content {
-    display: flex;
-    justify-content: center;
+  .column:first-child {
+    margin-bottom: 102px;
     .left {
-      margin-right: 274px;
-      .myH1 {
-        margin-bottom: 16px;
-      }
       .info {
-        width: 361px;
         padding: 10px;
-        box-sizing: border-box;
+        max-width: 361px;
       }
     }
+  }
+  .column:last-child {
     .right {
-      .myH4,
       .price {
-        margin-bottom: 16.5px;
-      }
-      .price {
-        display: flex;
-        align-items: center;
-        .myH1 {
+        margin: 16.5px 0px;
+        h1 {
           margin-right: 10px;
         }
       }
       .info {
-        width: 218px;
+        max-width: 218px;
         height: 60px;
         margin-bottom: 19px;
       }
@@ -39,55 +29,10 @@
     }
   }
 }
-
-@media (max-width: 1199.98px) {
+@media (min-width: 992px) {
   .pricing {
-    .content {
-      .left {
-        margin-right: 200px;
-      }
-    }
-  }
-}
-
-@media (max-width: 991.98px) {
-  .pricing {
-    .content {
-      .left {
-        margin-right: 130px;
-      }
-    }
-  }
-}
-@media (max-width: 767.98px) {
-  .pricing {
-    .content {
-      flex-direction: column;
-      align-items: center;
-      .left {
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 102px;
-      }
-      .right {
-        .myButton {
-          display: block;
-          margin: auto;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 417px) {
-  .pricing {
-    padding-left: 35px;
-    padding-right: 22px;
-    .content {
-      .left {
-        .info {
-          width: 100%;
-        }
-      }
+    .container {
+      max-width: 890px;
     }
   }
 }
